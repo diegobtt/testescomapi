@@ -1,0 +1,15 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.7",
+        "guzzlehttp/guzzle": "^7.9",
+        "pagarme/pagarme-php": "^4.4",
+        "illuminate/database": "^10.48",
+        "robmorgan/phinx": "^0.16.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app"
+        }
+    }
+}
